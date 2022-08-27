@@ -12,11 +12,7 @@ padding: 0;
     background-repeat: no-repeat;  
     background-size: cover; 
 }
-main{
-    margin: 0 50px;;
-}
-header{
-    margin: 0 50px;
+header{    
     display: flex;    
 }
 .header-logo{
@@ -181,9 +177,6 @@ dd{
     padding-top: 86px;
     padding-left: 130px;
     text-align: center;    
-} 
-.works img:hover{
-    transform: scale(1.2);    
 }
 .works img.Picture1{
     display: block;
@@ -233,7 +226,8 @@ dd{
     transform: scale(1.5);
 }
 .team-work {
-    display: flex;    
+    display: flex; 
+    width: 1399px;   
     background: #E2C4BA; 
     margin-top: 142px;   
 }
@@ -302,21 +296,45 @@ dd{
     text-align: center;   
     color: #533738;  
 }
-.details span{
-    width: 12px;
-    height: 30px;
-    font-weight: 500;
+ .details span.number{
+    width: 70px;
+    height: 70px;
+    /*font-weight: 500;
     font-size: 30px;
     line-height: 30px;
-    color: #FFFFFF;    
+    color: #FFFFFF; */   
     background: #8d7370;
-    border: 17px solid #8d7370;
+    border: 18px solid #8d7370;
     border-radius: 50%;
-    cursor: pointer;      
+    
+   /* clip-path: circle(50%);*/      
 } 
+.details span.one,.two,.three,.four{
+    height: 30px;
+    *font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+} 
+.details span.one{
+    width: 12px;
+}
+.details span.two,.three{
+    width: 18px;
+}
+.details span.four{
+    width: 21px;
+}
+/*.circle {
+    background: #456BD9;
+    clip-path: circle(50%);
+    height: 5em;
+    width: 5em;
+  }*/
+
 .list-nav li:hover{
     text-decoration: underline;
-    background-color: #CC8B86;      
+    background-color: #CC8B86; 
 }
  
 .work-details span.one{
@@ -427,6 +445,7 @@ dd{
     outline: 0;
 }
  img.map{
+    position: absolute;
     margin-left: 709px;
     margin-top: -404px;
 }
