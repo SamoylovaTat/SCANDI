@@ -1,19 +1,19 @@
 body {
 font-family: 'Montserrat', 'Arial', sans-serif;
-background: #E5E5E5;
+background: #efe6e4;
 margin:  0;
 padding: 0;
 }
 .home-content{     
-    width: 1417px;
+    
     min-height: 715px;
-    margin-top: -100px;
+    margin-top: -123px;
     background: url(img/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash\ 1.jpg); 
     background-repeat: no-repeat;  
     background-size: cover; 
 }
 header{    
-    /*display: flex;*/
+    
     width: 1399px; 
     margin: 0 auto;   
 }
@@ -85,18 +85,20 @@ p{
     color: #FFFFFF;
     background-color: #533738;    
 }
-.button {     
-    padding-left: 183px;
-    padding-top: 21px;
+.button {        
+   
+    margin-top: 21px;
     margin-left: 185px;
     margin-right: 990px;
     background: #CC8B86;    
 }
 a.button{
+    width: 175px;
     color: #533738;
    display: flex;   
    text-align: center;
-   padding-left: 62px;   
+   padding-left: 68px;
+   padding-right: 20px;   
    padding-bottom: 15px;
    padding-top: 15px;   
    font-weight: 500;
@@ -136,6 +138,8 @@ ul.list-nav li{
 }
 .about dl{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     color: #FFFFFF;
     background: #8d7370;
     width: 1400px;
@@ -144,24 +148,21 @@ ul.list-nav li{
     text-align: center;
     justify-content: space-around;    
 }
-dt{ 
+dt{ display: flex;
+    justify-content: center;
+    align-items: flex-end;
     font-weight: 400;
     font-size: 50px;
     line-height: 62px;
-    margin-top: 85px;
-    margin-left: 150px;
-    margin-right: 250px;    
+    height: 50%;    
 }
 dd{ 
     font-weight: 500;
     font-size: 30px;
     line-height: 37px;
     text-transform: uppercase;
-    margin-top: 155px;
-    margin-left: -400px;
-    margin-right: 110px;    
+    height: 50%;
 }
-
 .works-item {
     width: 488px;
     height: 451px;
@@ -237,7 +238,8 @@ dd{
     display: flex; 
     width: 1399px;   
     background: #E2C4BA; 
-    margin-top: 142px;   
+    margin-top: 142px; 
+    padding-bottom: 80px;  
 }
 .team h2{    
     margin-left: 588px;
@@ -305,51 +307,30 @@ dd{
     color: #533738;  
 }
  .details span.number{
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 20px;
     width: 70px;
     height: 70px;
-    /*font-weight: 500;
-    font-size: 30px;
-    line-height: 30px;
-    color: #FFFFFF; */   
-    background: #8d7370;
-    border: 18px solid #8d7370;
-    border-radius: 50%;
-    
-   /* clip-path: circle(50%);*/      
+    text-align: center;      
+    background: #8d7370;    
+    border-radius: 50%;         
 } 
-.details span.one,.two,.three,.four{
-    height: 30px;
-    *font-weight: 500;
+.details span.one,.two,.three,.four{    
+    font-weight: 500;
     font-size: 30px;
     line-height: 30px;
     color: #FFFFFF;
 } 
-.details span.one{
-    width: 12px;
-}
-.details span.two,.three{
-    width: 18px;
-}
-.details span.four{
-    width: 21px;
-}
-/*.circle {
-    background: #456BD9;
-    clip-path: circle(50%);
-    height: 5em;
-    width: 5em;
-  }*/
-
 .list-nav li:hover{
     text-decoration: underline;
     background-color: #CC8B86; 
-}
- 
+} 
 .work-details span.one{
-    margin-left: -880px;
+    margin-left: -895px;
 }
 .work-details span.two,.three,.four{
-    margin-left: 260px;    
+    margin-left: 235px;    
 }
 .reviews h2{   
     text-align: center;
@@ -358,6 +339,7 @@ dd{
 .heading{
     position: relative;
     margin-top: 150px;
+    
 }
 .reviews-list{
     display: inline;
@@ -383,11 +365,11 @@ dd{
     display: inline-block;    
     margin-left: 710px;
     margin-top: -420px;
-    margin-bottom: 550px;    
+    margin-bottom: 65px;    
 }
 .reviews-list img.primer{
     margin-top: -480px;
-    margin-bottom: 450px;
+    margin-bottom: 340px;
 }
 .reviews a{
     display: block;
@@ -409,7 +391,7 @@ dd{
     width: 1400px;
     height: 624px;
     background: #8d7370;
-    margin-top: -450px;
+    
 }
 .form h2{    
     color: #FFFFFF;
@@ -445,6 +427,11 @@ dd{
     margin-top: 20px;
     border: none;
 }
+.feedback-form button:hover{    
+    border: #533738;
+    color: #FFFFFF;
+    background-color: #533738;   
+}
  input{    
     width: 508px;
     background: none;
@@ -455,7 +442,7 @@ dd{
  img.map{
     position: absolute;
     margin-left: 709px;
-    margin-top: -404px;
+    margin-top: -406px;
 }
 .footer{
     display: flex;   
