@@ -1,7 +1,8 @@
 body {
 font-family: 'Montserrat', 'Arial', sans-serif;
 background: #E5E5E5;
-margin:  0 auto;
+margin:  0;
+padding: 0;
 }
 .home-content{     
     width: 1417px;
@@ -11,7 +12,11 @@ margin:  0 auto;
     background-repeat: no-repeat;  
     background-size: cover; 
 }
+main{
+    margin: 0 50px;;
+}
 header{
+    margin: 0 50px;
     display: flex;    
 }
 .header-logo{
@@ -197,7 +202,10 @@ dd{
     width: 490px;
     height: 454px;
 }
-.works a.btn{    
+.works a{
+    position: relative;
+}
+.works a{     
     color: #533738;
     width: 224px;
     font-weight: 400;
@@ -205,23 +213,29 @@ dd{
     line-height: 37px;
     padding: 0;
     display: block;
+    position: absolute;
     text-decoration: none;    
-    margin-left: 590px;
+    margin-left: 580px;
     margin-top: 40px;
 }
-
-.works a.btn:hover{
+.works a::after{
+    background: url(img/Arrow\ 3.svg);
+    content: "";
+    width: 61px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 210px;
+}
+.works a:hover{
     color: #CC8B86;
     transform: scale(1.5);
 }
-.btn img{
-    margin-left: 210px;    
-    margin-bottom: 36px;
-    margin-top: -100px;
-}
 .team-work {
     display: flex;    
-    background: #E2C4BA;    
+    background: #E2C4BA; 
+    margin-top: 142px;   
 }
 .team h2{    
     margin-left: 588px;
@@ -349,9 +363,6 @@ dd{
     margin-top: -480px;
     margin-bottom: 450px;
 }
-.reviews-list img:hover{
-    transform: scale(1.5);
-}
 .reviews a{
     display: block;
     position: absolute;
@@ -408,11 +419,6 @@ dd{
     margin-top: 20px;
     border: none;
 }
-.feedback-form button:hover{
-    border: #533738;
-    color: #FFFFFF;
-    background-color: #533738;
-}
  input{    
     width: 508px;
     background: none;
@@ -422,13 +428,10 @@ dd{
 }
  img.map{
     margin-left: 709px;
-    margin-top: -403px;
-}
-img.map:hover{
-    transform: scale(1.4);    
+    margin-top: -404px;
 }
 .footer{
-    display: flex;    
+    display: flex;   
     justify-content: space-around;
     font-weight: 400;
     font-size: 18px;
@@ -445,12 +448,11 @@ img.map:hover{
 .footer-nav a:hover{
     text-decoration: underline;
 }
-.footer-nav span{
+.address{
     margin-left: 50px;
 }
-.footer-nav cite{
-    margin-left: 490px;
-    font-style:normal;
+.organization{
+    margin-left: 490px;    
 }
 
 
