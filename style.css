@@ -23,14 +23,15 @@ main{
 }
 .header-container{
     display: flex;
+    justify-content: space-between;
 }
 .header-logo{
     display: flex;
-    flex-direction: row;
+    
     align-items: center;
-    justify-content: space-around;
+    
     margin-left: 100px;
-    margin-top: 50px;
+    
 }
 .list-nav {
     display: flex;
@@ -110,7 +111,7 @@ li a{
 ul.list-nav{
     margin: 0;
     padding: 4px;    
-    margin-left: 230px;        
+            
 }
 ul.list-nav li{
     display: inline;
