@@ -13,7 +13,16 @@ padding: 0;
     background-size: cover; 
 }
 header{    
-    display: flex;    
+    /*display: flex;*/
+    width: 1399px; 
+    margin: 0 auto;   
+}
+main{
+    width: 1399px;
+    margin: 0 auto;
+}
+.header-container{
+    display: flex;
 }
 .header-logo{
     display: flex;
@@ -100,10 +109,8 @@ li a{
 }
 ul.list-nav{
     margin: 0;
-    padding: 4px;
-    position: absolute;
-    margin-left: 230px;
-    margin-top: -55px;    
+    padding: 4px;    
+    margin-left: 230px;        
 }
 ul.list-nav li{
     display: inline;
