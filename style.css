@@ -5,7 +5,6 @@ margin:  0;
 padding: 0;
 }
 .home-content{     
-    
     min-height: 715px;
     margin-top: -123px;
     background: url(img/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash\ 1.jpg); 
@@ -13,7 +12,6 @@ padding: 0;
     background-size: cover; 
 }
 header{    
-    
     width: 1399px; 
     margin: 0 auto;   
 }
@@ -26,12 +24,9 @@ main{
     justify-content: space-between;
 }
 .header-logo{
-    display: flex;
-    
-    align-items: center;
-    
-    margin-left: 100px;
-    
+    display: flex;    
+    align-items: center;    
+    margin-left: 100px;    
 }
 .list-nav {
     display: flex;
@@ -85,8 +80,7 @@ p{
     color: #FFFFFF;
     background-color: #533738;    
 }
-.button {        
-   
+.button {   
     margin-top: 21px;
     margin-left: 185px;
     margin-right: 990px;
@@ -203,9 +197,6 @@ dd{
     margin-top: -454px;
     width: 490px;
     height: 454px;
-}
-.works a{
-    position: relative;
 }
 .works a{     
     color: #533738;
@@ -338,8 +329,7 @@ dd{
 }
 .heading{
     position: relative;
-    margin-top: 150px;
-    
+    margin-top: 150px;    
 }
 .reviews-list{
     display: inline;
@@ -438,11 +428,12 @@ dd{
     border: 0;
     border-bottom: 1px solid #FFFFFF;
     outline: 0;
+    color: #FFFFFF;
 }
  img.map{
     position: absolute;
     margin-left: 709px;
-    margin-top: -406px;
+    margin-top: -402px;
 }
 .footer{
     display: flex;   
